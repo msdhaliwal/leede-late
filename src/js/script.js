@@ -1,9 +1,9 @@
 // Set your target launch date
 const launchDate = new Date();
 launchDate.setFullYear(2025);
-launchDate.setMonth(7); // May (0-indexed)
-launchDate.setDate(11);
-launchDate.setHours(10, 0, 0, 0);
+launchDate.setMonth(8); // 0-indexed
+launchDate.setDate(1);
+launchDate.setHours(0, 0, 0, 0);
 
 function updateCountdown() {
   const now = new Date().getTime();
